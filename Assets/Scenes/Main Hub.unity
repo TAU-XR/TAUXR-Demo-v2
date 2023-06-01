@@ -3818,6 +3818,11 @@ PrefabInstance:
       propertyPath: activationTime
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5645952238193956234, guid: 9884019a3f016be45841733c24828847,
+        type: 3}
+      propertyPath: DisplayArenaModel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6252702996008983494, guid: 9884019a3f016be45841733c24828847,
         type: 3}
       propertyPath: m_RootOrder
@@ -4763,6 +4768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645399533064295382, guid: 51cc860bd8cac5d478519c126bd4d4fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5728626648828386512, guid: 51cc860bd8cac5d478519c126bd4d4fe,
         type: 3}
@@ -6544,9 +6554,9 @@ MonoBehaviour:
       m_ScenePath: Assets/Scenes/Maze Experience.unity
   - Mode: 4
     ExperienceScene:
-      m_SceneAsset: {fileID: 102900000, guid: 8ffc02f17773e134a890691eed16dfcf, type: 3}
+      m_SceneAsset: {fileID: 102900000, guid: abf370118e963ba489af4dd5ab09e5d5, type: 3}
       m_IsDirty: 0
-      m_ScenePath: Assets/Scenes/Gallery Experience.unity
+      m_ScenePath: Assets/Scenes/Gallery Experience v2.unity
   - Mode: 5
     ExperienceScene:
       m_SceneAsset: {fileID: 102900000, guid: 314fbcce157e1cf42b0f944e00203de1, type: 3}
@@ -6584,7 +6594,7 @@ MonoBehaviour:
   LeftHandControllerInteractionSphereCollider: {fileID: 1882629567}
   ArenaModel: {fileID: 4957332037472828383}
   ModeSelectionButtonsGO: {fileID: 1394619703}
-  StartWithIntro: 1
+  StartWithIntro: 0
   floor: {fileID: 1808530870}
 --- !u!4 &8968157036980798495
 Transform:
